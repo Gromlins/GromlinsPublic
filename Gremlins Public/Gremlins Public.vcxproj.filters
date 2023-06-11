@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VECTOR">
+      <UniqueIdentifier>{3527b6b5-6f1e-4f9a-867a-c27d91c4602e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SETTING">
+      <UniqueIdentifier>{9662875e-1712-4c0f-97d3-264856b81af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFFSET">
+      <UniqueIdentifier>{49872d2d-c62f-4707-901f-fd1c253d0361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="INTERFACE">
+      <UniqueIdentifier>{5a3132a8-df2e-448d-bf3b-460f35abbf3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SOURCE">
+      <UniqueIdentifier>{0deb656a-a9b8-4407-bb9f-38f27064c895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DRIVER">
+      <UniqueIdentifier>{8830cc4e-1ab2-4664-a09e-bd2424c588e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENTITY">
+      <UniqueIdentifier>{6c679a2b-6008-48ca-80e3-d403d16a1bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIMBOT">
+      <UniqueIdentifier>{61ac4c13-5855-49b0-afbc-d9e5ef399e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{78b1f99a-e38d-45f6-85fb-f052bfe6cd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OVERLAY">
+      <UniqueIdentifier>{3c29fdfc-17d3-4c58-9d53-74d3e1c024dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMAGE">
+      <UniqueIdentifier>{eab34725-efea-4530-aefe-13819a545fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANTIDEBUG">
+      <UniqueIdentifier>{580f6b4d-bb38-4075-ada2-2fadbb62e90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{e3be85b9-0771-4391-a158-a36f6882d6a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PROTECT">
+      <UniqueIdentifier>{b116d2b5-6fdf-4dce-b42c-f1019ecaa45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ARTEMIS">
+      <UniqueIdentifier>{c6f9056f-65cc-4e87-9540-fdbd6c076d96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>VECTOR</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.hpp">
+      <Filter>OFFSET</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.hpp">
+      <Filter>SETTING</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>INTERFACE</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>DRIVER</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>ENTITY</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>AIMBOT</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\iconfont.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>OVERLAY</Filter>
+    </ClInclude>
+    <ClInclude Include="images.h">
+      <Filter>IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="antidebug.h">
+      <Filter>ANTIDEBUG</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.h">
+      <Filter>PROTECT</Filter>
+    </ClInclude>
+    <ClInclude Include="Artemis.h">
+      <Filter>ARTEMIS</Filter>
+    </ClInclude>
+    <ClInclude Include="portable_executable.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector.cpp">
+      <Filter>VECTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>INTERFACE</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SOURCE</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>DRIVER</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>ENTITY</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>AIMBOT</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>OVERLAY</Filter>
+    </ClCompile>
+    <ClCompile Include="antidebug.cpp">
+      <Filter>ANTIDEBUG</Filter>
+    </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>SETTING</Filter>
+    </ClCompile>
+    <ClCompile Include="protect.cpp">
+      <Filter>PROTECT</Filter>
+    </ClCompile>
+    <ClCompile Include="Artemis.cpp">
+      <Filter>ARTEMIS</Filter>
+    </ClCompile>
+    <ClCompile Include="portable_executable.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="driver_bytes.h">
+      <Filter>DRIVER</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
